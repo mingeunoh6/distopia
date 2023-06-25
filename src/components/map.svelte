@@ -65,6 +65,7 @@
     {#if errorMsg}
         <p>{errorMsg}</p>
     {:else}
+    <h1>Position</h1>
         <p>Latitude: {latitude}</p>
         <p>Longitude: {longitude}</p>
         <p>Previous Latitude: {previousLatitude}</p>
